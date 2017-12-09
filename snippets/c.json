@@ -96,9 +96,10 @@
 	"main": {
 		"prefix": "main",
 		"body": [
-			"void main(int ac, char const * const *av)",
+			"int main(int ac, char const * const *av)",
 			"{",
 			"    $1",
+			"return (0);",
 			"}"
 		],
 		"description": "void main(int ac, char const * const *av) {}"
