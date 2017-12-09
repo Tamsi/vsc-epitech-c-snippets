@@ -2,7 +2,7 @@
 	"fori": {
 		"prefix": "fori",
 		"body": [
-			"for(i = 0;i < ${1:length};i++) {",
+			"for (i = 0;i < ${1:length};i++) {",
 			"    $2",
 			"}"
 		],
@@ -11,7 +11,7 @@
 	"for": {
 		"prefix": "for",
 		"body": [
-			"for(${1:index} = ${2:0};${1:index} < ${3:length};${1:index}++) {",
+			"for (${1:index} = ${2:0};${1:index} < ${3:length};${1:index}++) {",
 			"    $4",
 			"}"
 		],
@@ -22,7 +22,7 @@
 		"body": [
 			"do {",
 			"    $1",
-			"} while(${2:TRUE});"
+			"} while (${2:TRUE});"
 		],
 		"description": "do{}while();"
 	},
@@ -35,19 +35,10 @@
 		],
 		"description": "add if(){}"
 	},
-	"if0": {
-		"prefix": "i",
-		"body": [
-			"if ($1) {",
-			"    $2",
-			"}"
-		],
-		"description": "add if(){}"
-	},
 	"ifelse": {
 		"prefix": "ifelse",
 		"body": [
-			"if($1) {",
+			"if ($1) {",
 			"    $2",
 			"} else {",
 			"    $3",
@@ -87,7 +78,7 @@
 	"while": {
 		"prefix": "while",
 		"body": [
-			"while(${1:true}) {",
+			"while (${1:true}) {",
 			"    $2",
 			"}"
 		],
@@ -99,7 +90,7 @@
 			"int main(int ac, char const * const *av)",
 			"{",
 			"    $1",
-			"return (0);",
+			"    return (0);",
 			"}"
 		],
 		"description": "void main(int ac, char const * const *av) {}"
@@ -107,7 +98,7 @@
 	"switch": {
 		"prefix": "switch",
 		"body": [
-			"switch($1) {",
+			"switch ($1) {",
 			"    case $2:",
 			"        $3",
 			"        break;",
