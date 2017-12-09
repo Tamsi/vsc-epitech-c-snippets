@@ -2,7 +2,7 @@
 	"fori": {
 		"prefix": "fori",
 		"body": [
-			"for (i = 0;i < ${1:length};i++) {",
+			"for (i = 0; i < ${1:length}; i++) {",
 			"    $2",
 			"}"
 		],
@@ -11,7 +11,7 @@
 	"for": {
 		"prefix": "for",
 		"body": [
-			"for (${1:index} = ${2:0};${1:index} < ${3:length};${1:index}++) {",
+			"for (${1:index} = ${2:0}; ${1:index} < ${3:length}; ${1:index}++) {",
 			"    $4",
 			"}"
 		],
