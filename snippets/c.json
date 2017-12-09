@@ -174,4 +174,16 @@
 			"};"
 		],
 		"description": "union name{}"
+	},
+	"header": {
+		"prefix": "epitech",
+		"body": [
+			"/*",
+			"** EPITECH PROJECT, 2017",
+			"** ${1:name}",
+			"** File description:",
+			"** ${2:description}",
+			"*/"
+		],
+		"description": "epitech header"
 	}
