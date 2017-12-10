@@ -112,17 +112,17 @@
 	"add void fun(){}": {
 		"prefix": "void",
 		"body": [
-			"void ${1:functionname}(${2:args})",
+			"void ${1:functionname}(${2:void})",
 			"{",
 			"	$3",
 			"}"
 		],
-		"description": "add void functionname(args){}"
+		"description": "add void functionname(void){}"
 	},
 	"add  fun(){}": {
 		"prefix": "function",
 		"body": [
-			"${1:functionname}(${2:args})",
+			"${1:functionname}(${2:void})",
 			"{",
 			"	$3",
 			"}"
